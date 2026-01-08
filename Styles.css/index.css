@@ -16,13 +16,26 @@
   padding: 12px 16px;
   cursor: pointer;
 }
+#btn2{
+  color: white;
+  font-size: 16px;
+  font-weight: 600px;
+
+  background-color:#ffffff00;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
 
 /* Main style */
-header{}
+header{
+  
+}
 
-nav{width: 100%;
-  max-width: 1600px
-  hight: 92px;
+nav{width: auto;
+  height: 92px;
   padding: 16px 120px;
   display: flex;
   justify-content: space-between;
@@ -40,8 +53,62 @@ nav a{color: black;
   text-decoration: none;
 }
 
-nav .distance{justify-content: center;}
 
-.button{text-align: right;}
+
+#Poster {border: 1px solid red;
+width: auto;
+height: 674px;
+background-color: darkgray;
+padding: 70px 120px 134px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.poster-content{max-width: 1360px;
+max-height: 379px;
+}
+
+.poster-content h4{color: #30b868;
+  font-size: 16px;
+  font-weight: 500px;
+  padding: 8px 12px 8px 34px;
+  margin-bottom: 16px;
+  
+background-color: white;
+width: 229px;
+height: 36px;
+border: none;
+border-radius: 1000px;
+cursor: pointer;
+}
+
+.poster-content h1{max-width: 770px;
+    max-height: 168px;
+  color: white; 
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 16px;}
+
+#Poster .Green{color: #30b868;
+}
+
+
+
+.poster-content p{max-width: 1360px;
+  max-height: 60px;
+  font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+margin-bottom: 32px;
+}
+
+#Poster .Button-space{display: flex;
+gap: 16px;}
+
+
+
 
 
