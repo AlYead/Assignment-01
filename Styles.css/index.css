@@ -123,9 +123,10 @@ gap: 16px;}
 #about .heading p{font-size: 16px;
 color: #627382;
 line-height: 20px;}
-#about .contants{ width: 85%;
+#about .contants{ 
   max-width: 1600px;
-  /* max-height: 300px; */
+  /* max-height: 300px; 
+  width: 85%;*/
 text-align: center;
 margin: 0 auto ;
 }
@@ -160,3 +161,48 @@ margin: 0 auto ;
 .cards-info p{font-size: 16px;
 line-height: 20px;
 color: #627382;}
+
+
+/* Main part two */
+
+#solutions{ padding: 120px;
+  display: flex;
+  gap:60px;
+  width: 1360px;
+
+}
+
+#solutions .picture{width: 600px;
+}
+
+#solutions .description-1 {max-width: 700px;
+  max-height: 396px; 
+
+}
+
+.description-1 .dc1{ font-size: 16px;
+  font-weight: 500px;
+  line-height: 20px;
+  color: #30b868;
+  margin-bottom: 16px;
+
+}
+
+.description-1 h5{font-size: 48px;
+font-weight: bold;
+color: #001931;
+margin-bottom: 16px;}
+
+.description-1 p{ font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+
+.description-2 h6{font-size: 16px;
+line-height: 20px;
+color: #001931;
+margin-bottom: 16px;
+display: flex;
+gap: 6px;
+}
