@@ -60,7 +60,10 @@ nav a{color: black;
   text-decoration: none;
 }
 
-nav .distance:hover{background-color: antiquewhite;
+nav .distance:hover{background-color:limegreen;
+  padding: 5px;
+  border-radius: 25px;
+  color: #FFFFFF;
 }
 
 #Poster {
