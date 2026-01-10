@@ -72,7 +72,7 @@ max-width: 1600px;
 height: 674px;
 background-color: darkgray;
 padding: 115px 120px 263px;
-background-image: url(/assets/hero-bg.png);
+background-image: url(../assets/hero-bg.png);
 }
 #Poster .im{display: flex; align-items: center; gap: 6px;}
 #Poster .im:hover{background-color: rgba(248, 248, 248, 0);}
@@ -286,7 +286,8 @@ footer .f-contents .c-details p{color: #FFFFFF;
 
 }
 footer .f-contents .c-details .icons{ display: flex;
-  gap: 16px;}
+  gap: 16px;
+margin-top: 16px;}
 
 
 footer .copyright p{ font-size: 16px;
