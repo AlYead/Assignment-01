@@ -119,6 +119,14 @@ gap: 16px;}
 
 #about{padding:0px 120px;}
 
+.orange{ background-color: #F95555;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+
+.orange img{padding: 14px;}
+
 #about .heading h1{margin-bottom: 16px;}
 #about .heading p{font-size: 16px;
 color: #627382;
@@ -205,4 +213,31 @@ color: #001931;
 margin-bottom: 16px;
 display: flex;
 gap: 6px;
+}
+
+/* Main part three */
+#think{ padding: 0px 120px 120px 120px;}
+#think .t-contents{ max-width: 1360px;
+  padding: 80px 40px;
+  background-color: #F7F6F2;
+  text-align: center;
+
+}
+
+.t-contents .t-header h2{ font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.t-contents .t-header p{ font-size: 16px;
+line-height: 24px;
+color: #627382;
+margin-bottom: 24px;
+}
+
+#think .t-body p{ color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
 }
