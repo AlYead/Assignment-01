@@ -16,7 +16,11 @@
   padding: 12px 16px;
   cursor: pointer;
 }
-#btn2{
+.btn:hover{ background-color: darkgreen;
+}
+
+
+.btn2{
   color: white;
   font-size: 16px;
   font-weight: 600px;
@@ -28,11 +32,14 @@
   cursor: pointer;
 }
 
+.btn2:hover{ background-color: #07256ccf ;
+
+}
+
+
+
 
 /* Main style */
-header{
-  
-}
 
 nav{max-width: 1600px;
   height: 92px;
@@ -53,7 +60,8 @@ nav a{color: black;
   text-decoration: none;
 }
 
-
+nav .distance:hover{background-color: antiquewhite;
+}
 
 #Poster {
   /* border: 1px solid red; */
@@ -61,11 +69,10 @@ max-width: 1600px;
 height: 674px;
 background-color: darkgray;
 padding: 115px 120px 263px;
-
-
-
+background-image: url(/assets/hero-bg.png);
 }
 #Poster .im{display: flex; align-items: center; gap: 6px;}
+#Poster .im:hover{background-color: rgba(248, 248, 248, 0);}
 
 .poster-content{ width: 85%;
   max-width: 1600px;
@@ -287,35 +294,8 @@ footer .copyright p{ font-size: 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.203);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer{
-  padding: 120px, 120px, 30px, 120px;
-background-color: #001931;
-height: 338px;
-}
-
-#foot .f-contents{
-  display: flex;
-  justify-content: space-between;
-}
-
-#foot .f-body p{color: #FFFFFF;
-  font-size: 20px;
-  font-weight: 500px;
-  line-height: 28px;
-
-}
-#foot .f-icon{display: flex;
-gap: 16px;
-margin-top: 16px;} */
+footer .icons a:hover{background-color: #f5f500;
+padding: 5px;
+border-radius: 50%;
+display: flex;
+align-items: center;}
